@@ -20,12 +20,13 @@ void main(List<String> args) {
   print(mylist);
   print("\n");
 
+//addAll() method
   mylist.addAll([1000, 2000, 3000]);
   print("After add iterate value");
   print(mylist);
-
   print("\n");
 
+//add() method
   mylist.add(800);
   print(mylist);
 }
